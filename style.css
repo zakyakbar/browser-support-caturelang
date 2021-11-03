@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  background-image: url("assets/background.jpg");
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.box-one {
+  display: block;
+  width: 100%;
+  height: 36%;
+  background-color: #777;
+  position: unset;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 23px 0;
+}
+.container {
+  position: absolute;
+  width: auto;
+  left: 0;
+  display: grid;
+  margin: 0 20px;
+}
+.title-container {
+  display: flex;
+}
+.title-container span {
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 0;
+  letter-spacing: 0.9;
+  font-weight: 590;
+}
+.title-container img {
+  width: 50px;
+  margin-right: 15px;
+}
+
+.container p {
+  color: #fff;
+  font-size: 17px;
+}
+
+.container a {
+  display: none;
+}
+
+.box-two {
+  display: grid;
+  width: 100%;
+}
+
+.img-one {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.float {
+  float: none;
+}
+
+.img-one b {
+  letter-spacing: 1.5;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.img-one span {
+  font-weight: normal;
+  text-transform: capitalize;
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.5;
+  color: #fff;
+  width: 200px;
+  margin-top: 7px;
+}
+
+.img-one img {
+  width: 55px;
+  height: 55px;
+  margin-top: 10px;
+}
+
+.btn {
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 17px;
+}
+.btn span {
+  display: none;
+}
+.fas {
+  display: block;
+  font-size: 32px;
+  color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .box-one {
+    display: block;
+    width: 100%;
+    height: 220px;
+    background-color: #777;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 20px 0;
+  }
+
+  .container {
+    position: absolute;
+    width: 50%;
+    left: 20%;
+    display: grid;
+  }
+  .title-container {
+    display: flex;
+  }
+  .title-container span {
+    font-size: 26px;
+    color: #fff;
+    padding: 10px 0;
+    letter-spacing: 0.9;
+    font-weight: 590;
+  }
+  .title-container img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .container p {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .container a {
+    display: block;
+    margin-top: 10px;
+    background-color: #929292;
+    font-weight: 550;
+    font-size: 14px;
+    width: 220px;
+  }
+  .box-two {
+    display: flex;
+    height: 100%;
+  }
+
+  .chrome {
+    width: 35%;
+  }
+
+  .moz {
+    width: 15%;
+  }
+
+  .edge {
+    width: 15%;
+  }
+
+  .safari {
+    width: 15%;
+  }
+
+  .opera {
+    width: 35%;
+  }
+
+  .img-one {
+    display: grid;
+    color: #fff;
+    width: 250px;
+    position: relative;
+    top: 60%;
+    justify-items: center;
+    padding: 0;
+    justify-content: unset;
+  }
+
+  .img-one b {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .float {
+    float: right;
+  }
+  .img-one span {
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 2;
+    width: 100%;
+  }
+
+  .img-one img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .btn {
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 2px;
+    margin-top: 15px;
+    margin-right: 0;
+    border: 1.5px solid #fff;
+    width: 95px;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .btn span {
+    display: inline;
+    padding: 0;
+  }
+  .btn i {
+    display: none;
+  }
+  .fas {
+    display: none;
+  }
+  .btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}

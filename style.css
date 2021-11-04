@@ -176,7 +176,7 @@ body {
   .img-one {
     display: grid;
     color: #fff;
-    width: 250px;
+    width: 200px;
     position: relative;
     top: 60%;
     justify-items: center;
